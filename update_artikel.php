@@ -7,7 +7,7 @@
     $penulis = $_POST['author'];
     $lead = $_POST['abstract'];
     $isi = $_POST['content'];
-    $time = date("d M Y, H:i");
+    $time = date("Y-m-d H:i:s");
 
     $lead = str_replace("\r\n","<br>",$lead);
     $content = str_replace("\r\n","<br>",$isi);
