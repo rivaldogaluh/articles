@@ -29,7 +29,7 @@
 		$data = mysqli_query($koneksi,"SELECT * FROM articles ORDER BY articleID DESC");
         
         while($d = mysqli_fetch_array($data)){
-			?>
+		?>
 			<tr>
 				<td><?php echo $no++; ?></td>
 				<td><?php echo $d['judul']; ?></td>
